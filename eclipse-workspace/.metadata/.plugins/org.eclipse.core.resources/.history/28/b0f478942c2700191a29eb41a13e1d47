@@ -1,0 +1,25 @@
+package myLife;
+
+public class MyLife2 {
+public String name;
+
+	public MyLife2() {}
+	
+	public MyLife2(String name) {
+		this.name = name;
+		System.out.println(name);
+		}
+		
+		
+		public void showName() {
+			System.out.println("My name is Monzur Miah.");
+			
+		}
+
+		public void showName() {
+			
+		}
+		
+	}
+
+

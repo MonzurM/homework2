@@ -1,0 +1,52 @@
+package laptop;
+
+import java.util.Scanner;
+
+public class Laptop {
+	
+	public static String staticVar = "The budget for the new laptop: ";
+	public static int price = 1900;
+	public String brandName;
+	public String modelName;
+	public int builtYear;
+	public int ramSize;
+	public int ssdSize;
+	public double screenSize;
+	public static Scanner input = new Scanner(System.in);
+	
+	public Laptop(){
+		System.out.println("******************************************************");
+		System.out.println("Hello, from Laptop constructor 1");
+		System.out.println(staticVar);	
+	}
+	
+	public Laptop(String brandName, String modelName, int builtYear, int ramSize, int ssdSize, double 	screenSize){
+		System.out.println("--------------------------------------------------");
+		System.out.println("Hello, from Laptop constructor 2: ");
+		this.brandName = brandName;
+		this.modelName = modelName;
+		this.builtYear = builtYear;
+		this.ramSize = ramSize;
+		this.ssdSize = ssdSize;
+		this.screenSize = screenSize;
+		System.out.println("Brand Name: " + brandName + "\n" + "Model Name: " + modelName + "\n" + 
+							"Built Year: " + builtYear + "\n" + "Ram Size: " + ramSize + "GB" + "\n" + 
+							"SSD Size: " + ssdSize + "GB" +"\n" + "Screen Size: " + screenSize + " inch");
+		
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	
+	public void updateScreenSize(double screenSize) {
+		System.out.println("The new updated Screen size is: " + screenSize + " inch");
+	}
+	
+	public static void yourLaptop() {
+		System.out.println("Please enter the laptop brand that you are currently using: ");
+		String yourLaptopBrand = input.next();
+		System.out.println("Your current laptop brand is : " + yourLaptopBrand);
+	}	
+
+}

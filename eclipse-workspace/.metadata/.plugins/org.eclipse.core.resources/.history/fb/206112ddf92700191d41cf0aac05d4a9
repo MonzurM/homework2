@@ -1,0 +1,17 @@
+package input;
+
+import java.util.Scanner;
+
+public class InputFromUser {
+	
+	public static void main(String[]args) {
+		System.out.println("Please enter two numbers.");
+		Scanner sc = new Scanner(System.in);
+		double input1 = sc.nextInt();
+		double input2 = sc.nextInt();
+		sc.close();
+		double result = input1 + input2;
+		System.out.println("The sum of the two numbers:" + result);
+	}
+
+}

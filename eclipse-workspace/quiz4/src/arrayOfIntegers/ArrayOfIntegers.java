@@ -1,0 +1,22 @@
+package arrayOfIntegers;
+
+import java.util.Scanner;
+
+public class ArrayOfIntegers {
+	public static void main(String[]args) {
+		int[] numbers;
+		System.out.print("Enter the length of the array ");
+		Scanner sc = new Scanner(System.in);
+		int input = sc.nextInt();
+		numbers = new int[input];
+		int result = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			numbers[i] = sc.nextInt();
+			result += numbers[i];
+			
+		}
+		System.out.print("The sum of the numbers: " +result);
+	}
+	
+
+}

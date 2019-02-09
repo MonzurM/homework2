@@ -1,0 +1,14 @@
+package arrayOfIntegers;
+
+import java.util.Scanner;
+
+public class ArrayOfIntegers {
+	public static void main(String[]args) {
+		int[] numbers = new int[5];
+		System.out.println("Enter 5 numbers: ");
+		Scanner sc = new Scanner(System.in);
+	
+	}
+	
+
+}
