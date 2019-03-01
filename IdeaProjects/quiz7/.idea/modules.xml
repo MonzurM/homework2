@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/quiz7.iml" filepath="$PROJECT_DIR$/quiz7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringToInteger/stringToInteger.iml" filepath="$PROJECT_DIR$/stringToInteger/stringToInteger.iml" />
+    </modules>
+  </component>
+</project>
